@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link type="image/x-icon" href="../../logo_v.ico" rel="shortcut icon">
+	<title>CPDLS</title>
+</head>
+<body>
+	<div class="wraper">
+		<div class="left-scrin">
+			<div class="header">
+				<a href="" class="header__button header__button-active">Уроки</a>
+				<a href="test.html" class="header__button">Итоговый тест</a>
+				<a href="description.html" class="header__button">Справка</a>
+			</div>
+			<div class="lessons">
+				<div class="lessons__list">
+					<button id ="lessons__list-item1" class="lessons__list-item" onclick="click_lesson(1)"><span class="lessons__list-item-text">Урок первый</span></button>
+					<button id ="lessons__list-item2" class="lessons__list-item" onclick="click_lesson(2)"><span class="lessons__list-item-text">Урок второй</span></button>
+					<button id ="lessons__list-item3" class="lessons__list-item" onclick="click_lesson(3)"><span class="lessons__list-item-text">Урок третий</span></button>
+					<button id ="lessons__list-item4" class="lessons__list-item" onclick="click_lesson(4)"><span class="lessons__list-item-text">Урок четвёртый</span></button>
+					<button id ="lessons__list-item5" class="lessons__list-item" onclick="click_lesson(5)"><span class="lessons__list-item-text">Урок пятый</span></button>
+					<button id ="lessons__list-item6" class="lessons__list-item" onclick="click_lesson(6)"><span class="lessons__list-item-text">Урок шестой</span></button>
+					<button id ="lessons__list-item7" class="lessons__list-item" onclick="click_lesson(7)"><span class="lessons__list-item-text">Урок седьмой</span></button>
+				</div>
+				<div class="lessons__text">
+					<p class="lessons__text-title"></p>
+					<p class="lessons__text-subtitle"></p>
+					<p class="lessons__text-discription"></p>
+					<div class="lessons__text-step-list">
+						<div id = "step-item1" class="step-item">
+							<div class="step-item__img">1</div>
+							<div class="step-item__text">
+								<p class="step-item__text-title">Шаг 1</p>
+								<p class="step-item__text-discription"></p>
+							</div>
+						</div>
+						<div id = "step-item2" class="step-item">
+							<div class="step-item__img">2</div>
+							<div class="step-item__text">
+								<p class="step-item__text-title">Шаг 2</p>
+								<p class="step-item__text-discription"></p>
+							</div>
+						</div>
+						<div id = "step-item3" class="step-item">
+							<div class="step-item__img">3</div>
+							<div class="step-item__text">
+								<p class="step-item__text-title">Шаг 3</p>
+								<p class="step-item__text-discription"></p>
+							</div>
+						</div>
+						<div id = "step-item4" class="step-item">
+							<div class="step-item__img">4</div>
+							<div class="step-item__text">
+								<p class="step-item__text-title">Шаг 4</p>
+								<p class="step-item__text-discription"></p>
+							</div>
+						</div>
+						<div id = "step-item5" class="step-item">
+							<div class="step-item__img">5</div>
+							<div class="step-item__text">
+								<p class="step-item__text-title">Шаг 5</p>
+								<p class="step-item__text-discription"></p>
+							</div>
+						</div>
+						<div id = "step-item6" class="step-item">
+							<div class="step-item__img">6</div>
+							<div class="step-item__text">
+								<p class="step-item__text-title">Шаг 6</p>
+								<p class="step-item__text-discription"></p>
+							</div>
+						</div>
+						<div id = "step-item7" class="step-item">
+							<div class="step-item__img">7</div>
+							<div class="step-item__text">
+								<p class="step-item__text-title">Шаг 7</p>
+								<p class="step-item__text-discription"></p>
+							</div>
+						</div>
+						<div id = "step-item8" class="step-item">
+							<div class="step-item__img">8</div>
+							<div class="step-item__text">
+								<p class="step-item__text-title">Шаг 8</p>
+								<p class="step-item__text-discription"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="right-scrin">
+			<div class="error-massage">
+				<div class="error-massage__img"></div>
+				<p class="error-massage__text"></p>
+			</div>
+			<div class="display">
+				<div class="display-left">
+					<div class="display-left-top">
+						<div class="display-left-top-btn-row">
+							<button id="btn_1_1" class="display-left-top-btn-row-item sistem_button" onclick="running_lesson('btn_1_1')"></button>
+							<button id="btn_1_2" class="display-left-top-btn-row-item sistem_button" onclick="running_lesson('btn_1_2')"></button>
+							<button id="btn_1_3" class="display-left-top-btn-row-item sistem_button" onclick="running_lesson('btn_1_3')"></button>
+							<button id="btn_1_4" class="display-left-top-btn-row-item sistem_button" onclick="running_lesson('btn_1_4')"></button>
+							<button id="btn_1_5" class="display-left-top-btn-row-item sistem_button" onclick="running_lesson('btn_1_5')"></button>
+							<button id="btn_1_6" class="display-left-top-btn-row-item sistem_button" onclick="running_lesson('btn_1_6')"></button>
+						</div>
+						<div class="display-left-top-scrin">
+							<div class="display-left-top-scrin-img"></div>
+							<input type="text" class="display-left-top-scrin-input" disabled>
+						</div>
+						<div class="display-left-top-btn-row left-top-btn-row-right">
+							<button id="btn_2_1" class="display-left-top-btn-row-item sistem_button" onclick="running_lesson('btn_2_1')"></button>
+							<button id="btn_2_2" class="display-left-top-btn-row-item sistem_button" onclick="running_lesson('btn_2_2')"></button>
+							<button id="btn_2_3" class="display-left-top-btn-row-item sistem_button" onclick="running_lesson('btn_2_3')"></button>
+							<button id="btn_2_4" class="display-left-top-btn-row-item sistem_button" onclick="running_lesson('btn_2_4')"></button>
+							<button id="btn_2_5" class="display-left-top-btn-row-item sistem_button" onclick="running_lesson('btn_2_5')"></button>
+							<button id="btn_2_6" class="display-left-top-btn-row-item sistem_button" onclick="running_lesson('btn_2_6')"></button>
+						</div>
+					</div>
+					<div class="display-left-middle">
+						<div class="display-left-middle-row">
+							<button class="display-left-middle-row-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+							<button class="display-left-middle-row-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+							<button class="display-left-middle-row-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+							<button class="display-left-middle-row-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+							<button class="display-left-middle-row-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+							<button id="menu" class="display-left-middle-row-item sistem_button" onclick="running_lesson('menu')"></button>
+						</div>
+						<div class="display-left-middle-row">
+							<button class="display-left-middle-row-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+							<button class="display-left-middle-row-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+							<button class="display-left-middle-row-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+							<button class="display-left-middle-row-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+							<button id="atc" class="display-left-middle-row-item sistem_button" onclick="running_lesson('atc')"></button>
+							<button class="display-left-middle-row-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+						</div>
+					</div>
+					<div class="display-left-bootom">
+						<div class="display-left-bootom-left">
+							<div class="display-left-bootom-left-row">
+								<button class="display-left-bootom-left-row-item" onclick="addsimvol('1')"></button>
+								<button class="display-left-bootom-left-row-item" onclick="addsimvol('2')"></button>
+								<button class="display-left-bootom-left-row-item" onclick="addsimvol('3')"></button>
+							</div>
+							<div class="display-left-bootom-left-row">
+								<button class="display-left-bootom-left-row-item" onclick="addsimvol('4')"></button>
+								<button class="display-left-bootom-left-row-item" onclick="addsimvol('5')"></button>
+								<button class="display-left-bootom-left-row-item" onclick="addsimvol('6')"></button>
+							</div>
+							<div class="display-left-bootom-left-row">
+								<button class="display-left-bootom-left-row-item" onclick="addsimvol('7')"></button>
+								<button class="display-left-bootom-left-row-item" onclick="addsimvol('8')"></button>
+								<button class="display-left-bootom-left-row-item" onclick="addsimvol('9')"></button>
+							</div>
+							<div class="display-left-bootom-left-row">
+								<button class="display-left-bootom-left-row-item" onclick="addsimvol('.')"></button>
+								<button class="display-left-bootom-left-row-item" onclick="addsimvol('0')"></button>
+								<button class="display-left-bootom-left-row-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+							</div>
+						</div>
+
+				
+						<div class="display-left-bootom-right">
+							<div class="display-left-bootom-right-row">
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('A')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('B')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('C')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('D')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('E')"></button>
+							</div>
+							<div class="display-left-bootom-right-row">
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('F')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('G')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('H')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('I')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('J')"></button>
+							</div>
+							<div class="display-left-bootom-right-row">
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('K')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('L')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('M')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('N')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('O')"></button>
+							</div>
+							<div class="display-left-bootom-right-row">
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('P')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('Q')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('R')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('S')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('T')"></button>
+							</div>
+							<div class="display-left-bootom-right-row">
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('U')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('V')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('W')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('X')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('Y')"></button>
+							</div>
+							<div class="display-left-bootom-right-row">
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('Z')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol('-')"></button>
+								<button class="display-left-bootom-right-row-item" onclick="addsimvol()"></button>
+								<button class="display-left-bootom-right-row-item" onclick="delsimvol()"></button>
+								<button class="display-left-bootom-right-row-item" onclick="clearsimvol()"></button>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="display-right">
+					<div class="display-right__top">
+						<div class="display-right__top-column">
+							<button class="display-right__top-column-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+							<button class="display-right__top-column-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+							<button class="display-right__top-column-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+							<button class="display-right__top-column-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+						</div>
+						<div class="display-right__top-img"></div>
+						<div class="display-right__top-column right__top-column-right">
+							<button class="display-right__top-column-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+							<button class="display-right__top-column-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+							<button class="display-right__top-column-item" onclick="error_massage('Вы нажали не на ту кнопку')"></button>
+							<button  id="btn_4_4" class="display-right__top-column-item sistem_button" onclick="running_lesson('btn_4_4')"></button>
+						</div>
+					</div>
+					<div class="display-right__bottom">
+						
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<script src="../js/text.js"></script>
+	<script src="../js/lessons.js"></script>
+</body>
+</html>
