@@ -1,0 +1,137 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+div{
+	margin: 0;
+	padding: 0;
+}
+p{
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+	font-style: normal;
+}
+a{
+	font-family: Roboto;
+	font-style: normal;
+}
+img{
+	margin: 0;
+	padding: 0;
+}
+
+
+.wraper {
+	position: relative;
+	background: linear-gradient(112.68deg, #58739B 0%, #37385A 100%);
+	background-size: contain;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0px 10px;
+	height: 100vh;
+}
+.main {
+	position: relative;
+	box-shadow: 0px 30px 30px rgb(0 0 0 / 32%);
+	background: linear-gradient(253.33deg, #54A3B5 8.13%, #6089C6 95.11%);
+	border-radius: 80px;
+	width: 1100px;
+	padding: 90px 50px 32px 50px;
+}
+.main__top{
+	display: flex;
+	gap: 50px;
+}
+
+.main__chief-info {
+	flex: 0 0 450px;
+	text-align: center;
+}
+.chief-info__city {
+}
+.chief-info__city-text {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 82px;
+}
+.chief-info__degrees {
+}
+.chief-info__degrees-text {
+	font-weight: 400;
+	font-size: 120px;
+	line-height: 140px;
+}
+
+.chief-info__weather-img {
+	visibility: hidden;
+	width: 150px;
+	height: 150px;
+}
+
+.chief-info__weather-text {
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 40px;
+}
+
+.main__weather-week {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	flex: 0 0 600px;
+}
+
+.weather-week__day {
+	display: flex;
+}
+.weather-week__day-text {
+	font-size: 40px;
+	line-height: 50px;
+	flex: 0 0 55%;
+}
+.weather-week__day-img {
+	visibility: hidden;
+	width: 40px;
+	height: 40px;
+}
+.weather-week__day-degrees {
+	flex: 0 0 17%;
+	text-align: right;
+	font-size: 40px;
+	line-height: 50px;
+}
+.day-degrees-min{
+	color: rgba(255, 255, 255, 0.56);
+}
+.main__bottom {
+	margin: 0 auto;
+	width: 700px;
+	margin-top: 90px;
+}
+.main__button-city {
+	display: flex;
+	justify-content: space-between;
+}
+.button-city-btn {
+	box-shadow: 0px 5px 5px rgb(0 0 0 / 32%);
+	width: 100px;
+	height: 15px;
+	background: rgba(233, 228, 228, 0.5);
+	border-radius: 20px;
+	border: none;
+	transition: background 0.5s;
+}
+.button-city-btn:focus{
+	background: #E9E4E4;
+}
+
+.button-city-btn:hover{
+	background: rgba(194, 194, 194, 0.5);
+
+}
+

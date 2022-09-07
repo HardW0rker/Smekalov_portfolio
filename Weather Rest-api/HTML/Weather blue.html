@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/Weather blue.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/select-style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="select-style">
+			<a href ="Weather.html" class="style white">Тёмный стиль</a>
+	</div>
+	<div class="wraper">
+		<div class="main">
+			<div class="main__top">
+				<div class="main__chief-info">
+					<div class="chief-info__weather">
+						<img src="img/Солнечно.png" class="chief-info__weather-img">
+					</div>
+					<div class="chief-info__city">
+						<p class="chief-info__city-text"></p>
+					</div>
+					<div class="chief-info__degrees">
+						<p class="chief-info__degrees-text"></p>
+					</div>
+				</div>
+
+				<div class="main__weather-week">
+					<div class="weather-week__day" >
+						<p class="weather-week__day-text" id ="data_1"></p>
+						<img id ="week_img1" src="" class="weather-week__day-img">
+						<p class="weather-week__day-degrees" id ="id_week_h_1"></p>
+						<p class="weather-week__day-degrees day-degrees-min" id ="id_week_c_1"></p>
+					</div>
+					<div class="weather-week__day" >
+						<p class="weather-week__day-text" id ="data_2"></p>
+						<img id ="week_img2" src="" class="weather-week__day-img">
+						<p class="weather-week__day-degrees" id ="id_week_h_2"></p>
+						<p class="weather-week__day-degrees day-degrees-min" id ="id_week_c_2"></p>
+					</div>
+					<div class="weather-week__day">
+						<p class="weather-week__day-text" id ="data_3"></p>
+						<img id ="week_img3" src="" class="weather-week__day-img">
+						<p class="weather-week__day-degrees" id ="id_week_h_3"></p>
+						<p class="weather-week__day-degrees day-degrees-min" id ="id_week_c_3"></p>
+					</div>
+					<div class="weather-week__day">
+						<p class="weather-week__day-text" id ="data_4"></p>
+						<img id ="week_img4" src="" class="weather-week__day-img">
+						<p class="weather-week__day-degrees" id ="id_week_h_4"></p>
+						<p class="weather-week__day-degrees day-degrees-min" id ="id_week_c_4"></p>
+					</div>
+					<div class="weather-week__day">
+						<p class="weather-week__day-text" id ="data_5"></p>
+						<img id ="week_img5" src="" class="weather-week__day-img">
+						<p class="weather-week__day-degrees" id ="id_week_h_5"></p>
+						<p class="weather-week__day-degrees day-degrees-min" id ="id_week_c_5"></p>
+					</div>
+				</div>
+			</div>
+			<div class="main__bottom">
+				<div class="main__button-city">
+					<button onclick="NewCity('Moskov')" class="button-city-btn active"></button>
+					<button onclick="NewCity('Saint_Petersburg')"  class="button-city-btn"></button>
+					<button onclick="NewCity('Kaliningrad')" class="button-city-btn"></button>
+					<button onclick="NewCity('omsk')" class="button-city-btn"></button>
+					<button onclick="NewCity('Yekaterinburg')" class="button-city-btn"></button>
+					<button onclick="NewCity('Dzerzhinsk')" class="button-city-btn"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script src = "../JS/JavaScript blue.js" type="text/javascript"></script>
+
+</html>
